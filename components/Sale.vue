@@ -10,7 +10,7 @@
       class="bg-white border-4 border-box dark:bg-gray-900 overflow-hidden shadow dark:shadow-none rounded-xl p-6"
     >
       <h2 class="font-black dark:text-gray-300 text-gray-900 flex items-center">
-        DAO Pre-Sale <img src="/building.png" class="ml-2 h-4" />
+        Cocoa DAO Pre-Sale <img src="/building.png" class="ml-2 h-4" />
       </h2>
 
       <div class="mt-4 flex flex-col">
@@ -251,7 +251,7 @@ export default {
     // PARAMS
     return {
       selled: 0,
-      cap: 500000,
+      cap: 350000,
       allocated: {
         whitelist: 2000,
         public: 1000,
@@ -416,7 +416,7 @@ export default {
             this.payed = parseFloat(getBalance(preSaleBalance))
 
             if (this.payed > before) {
-              this.setModal(true, 'Payment', 'You received your presale tokens')
+              this.setModal(true, 'Payment', 'You received your cCOCA')
               this.syncSelled()
               clearInterval(intervalId)
             }
