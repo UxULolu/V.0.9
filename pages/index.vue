@@ -44,7 +44,7 @@
             disabled
             class="w-full pl-8 py-2 font-semibold text-gray-400 hover:bg-gray-100 select-none text-sm mt-1"
           >
-            <i class="bx bx-coin mr-2"></i>CACA-MIM 0,0%</a
+            <i class="bx bx-coin mr-2"></i>COCA-MIM 0,0%</a
           >
           <a
             disabled
@@ -63,19 +63,19 @@
           >
             <ul class="flex justify-between text-3xl px-6 mt-6">
               <a
-                href="discord.com"
+                href="https://discord.gg/cocoadao"
                 class="flex items-center text-black hover:text-button"
               >
                 <i class="bx bxl-discord-alt mr-2"></i>
               </a>
               <a
-                href="twitter.com"
+                href="https://twitter.com/Daococoa"
                 class="flex items-center text-black hover:text-button"
               >
                 <i class="bx bxl-twitter mr-2"></i>
               </a>
               <a
-                href="medium.com"
+                href="https://medium.com/cocoadao"
                 class="flex items-center text-black hover:text-button"
               >
                 <i class="bx bxl-medium mr-2"></i>
@@ -119,7 +119,7 @@
 import Vue from 'vue'
 
 const tokenAddress = '0xd00981105e61274c8a5cd5a88fe7e037d935b513'
-const tokenSymbol = 'TUT'
+const tokenSymbol = 'cCOCA'
 const tokenDecimals = 18
 const tokenImage = 'http://placekitten.com/200/300'
 
