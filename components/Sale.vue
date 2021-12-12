@@ -163,7 +163,7 @@ const { ethers } = require('ethers')
 // PARAMS
 const getMimContract = (provider) => {
   return new ethers.Contract(
-    '0xaD6D458402F60fD3Bd25163575031ACDce07538D',
+    '0x130966628846BFd36ff31a822705796e8cb8C18D',
     [
       'function balanceOf(address) view returns (uint)',
       'function allowance(address, address) public view returns (uint256)',
