@@ -490,8 +490,8 @@ export default {
           method: 'eth_requestAccounts',
         })
         const chainId = await ethereum.request({ method: 'eth_chainId' })
-        const goodChainid = '0x3'
-        if (chainId === 43114) {
+        const goodChainid = '43114'
+        if (chainId === goodChainid) {
           this.account = accounts[0]
           this.address(this.account)
           ethereum.on('accountsChanged', (accounts) => {
