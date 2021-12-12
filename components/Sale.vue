@@ -82,7 +82,7 @@
           <span class="font-semibold text-gray-700"> Receive </span>
           <div class="font-bold text-gray-900">
             {{ parseFloat(invested) / 50 }}
-            <span class="font-bold text-gray-900"> $TOKEN</span>
+            <span class="font-bold text-gray-900"> $cCOCA</span>
           </div>
         </div>
       </div>
