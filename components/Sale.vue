@@ -528,7 +528,7 @@ export default {
           try {
             await window.ethereum.request({
               method: 'wallet_switchEthereumChain',
-              params: [{ chainId: goodChainid }],
+              params: [{ chainId: 43114 }],
             })
           } catch (switchError) {
             if (switchError.code === 4902) {
