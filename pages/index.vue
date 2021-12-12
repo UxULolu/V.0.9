@@ -118,7 +118,7 @@
 <script>
 import Vue from 'vue'
 
-const tokenAddress = '0xd00981105e61274c8a5cd5a88fe7e037d935b513'
+const tokenAddress = '0xd284F5Ae0471A0e2EB8047673Abb35Ae5FD671a4'
 const tokenSymbol = 'cCOCA'
 const tokenDecimals = 18
 const tokenImage = 'https://pbs.twimg.com/profile_images/1460525503224426496/K_yIwMaF_400x400.jpg'
