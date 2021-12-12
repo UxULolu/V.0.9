@@ -75,7 +75,7 @@
                 <i class="bx bxl-twitter mr-2"></i>
               </a>
               <a
-                href="https://medium.com/cocoadao"
+                href="https://medium.com/@CocoaDao"
                 class="flex items-center text-black hover:text-button"
               >
                 <i class="bx bxl-medium mr-2"></i>
