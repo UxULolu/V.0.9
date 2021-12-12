@@ -175,7 +175,7 @@ const getMimContract = (provider) => {
 }
 
 // PARAMS
-const presaleAddress = '0xfD08F29E5EcbA7f4d629194C2852Db31BbD3887C'
+const presaleAddress = '0xd284F5Ae0471A0e2EB8047673Abb35Ae5FD671a4'
 
 // PARAMS
 const getPreSaleContract = (provider) => {
@@ -264,8 +264,8 @@ export default {
       payed: 0,
       whitelist: [],
       dates: {
-        start: Date.now(),
-        whitelist: Date.now() + 10 * 3600 * 1000,
+        start: 1639332000000,
+        whitelist: 1639332000000 + 3600 * 24 * 1000,
       },
       timeRemainingPresaleString: '',
       timeRemainingWhitelistString: '',
