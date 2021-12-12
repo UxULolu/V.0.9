@@ -491,7 +491,7 @@ export default {
         })
         const chainId = await ethereum.request({ method: 'eth_chainId' })
         const goodChainid = '0x3'
-        if (chainId === goodChainid) {
+        if (chainId === 43114) {
           this.account = accounts[0]
           this.address(this.account)
           ethereum.on('accountsChanged', (accounts) => {
@@ -528,7 +528,7 @@ export default {
           try {
             await window.ethereum.request({
               method: 'wallet_switchEthereumChain',
-              params: [{ chainId: goodChainid }],
+              params: [{ chainId: 43114 }],
             })
           } catch (switchError) {
             if (switchError.code === 4902) {
