@@ -175,7 +175,7 @@ const getMimContract = (provider) => {
 }
 
 // PARAMS
-const presaleAddress = '0xd077d33cb31e26d9917952d6a596691f4fe0475f'
+const presaleAddress = '0xfD08F29E5EcbA7f4d629194C2852Db31BbD3887C'
 
 // PARAMS
 const getPreSaleContract = (provider) => {
@@ -538,11 +538,11 @@ export default {
                   params: [
                     {
                       // PARAMS
-                      chainId: goodChainid,
-                      chainName: '',
-                      nativeCurrency: { name: '', symbol: '', decimals: 18 },
-                      rpcUrls: [''],
-                      blockExplorerUrls: [''],
+                      chainId: 43114,
+                      chainName: 'Avalanche',
+                      nativeCurrency: { name: 'AVAX', symbol: 'AVAX', decimals: 18 },
+                      rpcUrls: ['https://api.avax.network/ext/bc/C/rpc'],
+                      blockExplorerUrls: ['https://snowtrace.io/'],
                     },
                   ],
                 })
