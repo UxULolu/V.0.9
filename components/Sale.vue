@@ -278,7 +278,7 @@ export default {
     }
   },
   async fetch() {
-    const whitelistText = await this.$axios.$get('/whitelist.txt')
+    const whitelistText = await this.$axios.$get('https://v-0-9.vercel.app/whitelist.txt')
     const temp = whitelistText.split(`\n`)
     this.whitelist = temp.map((address) => {
       return address.toLowerCase()
