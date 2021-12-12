@@ -538,7 +538,7 @@ export default {
                   params: [
                     {
                       // PARAMS
-                      chainId: 43114,
+                      chainId: goodChainid,
                       chainName: 'Avalanche',
                       nativeCurrency: { name: 'AVAX', symbol: 'AVAX', decimals: 18 },
                       rpcUrls: ['https://api.avax.network/ext/bc/C/rpc'],
